@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ededed;
+  height: 100vh;
+  background-image: url(images/bg-ondas.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #224957;
+  font-weight: 500;
+  font-size: 64px;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: #224957;
+}
+
+input {
+  color: #FAFAFA;
+  width: 250px;
+  margin: 0.8rem 0;
+  border: none;
+  background-color: #224957;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#checkbox {
+  width: 24px;
+  background-color: #224957;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #224957;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  margin-left: 0.8rem;
+}
+
+.submit {
+  background-color: #20DF7F;
+  font-size: 16px;
+  color: #224957;
+  font-weight: 500;
+  cursor: pointer;
+}
